@@ -8,4 +8,6 @@ Project Stock Price Checker
 3) You will add any security features to `server.js`
 4) You will create all of the functional tests in `tests/2_functional-tests.js`
 
+# My Solution
 
+solution link: https://band-tax.glitch.me/
