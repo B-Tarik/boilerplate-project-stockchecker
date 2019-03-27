@@ -42,22 +42,20 @@
       <form id="testForm2" class="border">
         <input type="text" name="stock" placeholder="goog" style="width: 100px" required=''>
         <input type="checkbox" name="like" value=true> Like?<br>
-        <button type="submit">Get Price!</button>
+        <input type="submit">Get Price!</input>
       </form>
       <h3>Compare and get relative likes</h3>
       <form id="testForm" class="border">
         <input type="text" name="stock" placeholder="goog" style="width: 100px" required=''>
         <input type="text" name="stock" placeholder="msft" style="width: 100px" required=''>
         <input type="checkbox" name="like" value=true> Like both?<br>
-        <button type="submit">Get Price!</button>
+        <input type="submit">Get Price!</input>
       </form>
-      <code id='jsonResult'></code>
+      <code id='jsonResult' style='padding-top: 20px;display: block;'></code>
     </div>
     <hr style='margin: 50px; margin-top: 200px'>
     <!-- Your web-app is https, so your scripts need to be too -->
-    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
-            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
-            crossorigin="anonymous"></script>
+    <script src="./public/jquery-3.3.1.min.js"></script>
     <script>
       $(function() {
         $('#testForm').submit(function(e) {
